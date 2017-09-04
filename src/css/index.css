@@ -1,0 +1,13 @@
+@import 'normalize.css'
+
+@import './mixins/*.css'
+@import './tokens/*.css'
+@import './partials/*.css'
+@import './pages/*.css'
+
+html
+  -webkit-font-smoothing: antialiased
+
+body
+  background-color: $color-background
+  font-family: $font-family
