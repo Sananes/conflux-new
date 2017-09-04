@@ -1,43 +1,52 @@
-.header
-  width: 100%
+.header {
+  width: 100%;
+}
 
-.header-container
-  width: $width-page-max
-  display: table-cell
-  padding: $space-large 0
+.header-container {
+  width: $width-page-max;
+  display: table-cell;
+  padding: $space-large 0;
+}
 
-.header-logo
-  background: url('../src/img/logo.svg') no-repeat top left
-  display: block
-  text-indent: -999em
-  margin: 0
-  float: left
-  width: 124px
+.header-logo {
+  background: url('../src/img/logo.svg') no-repeat top left;
+  display: block;
+  text-indent: -999em;
+  margin: 0;
+  float: left;
+  width: 124px;
+}
 
-.header-nav
-  font-size: $font-size-small
-  float: right
-  margin: 0
-  padding: 0
+.header-nav {
+  font-size: $font-size-small;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
 
-.header-nav-split
-  float: left
+.header-nav-split {
+  float: left;
+}
 
-.header-nav-item
-  display: inline
-  float: left
-  margin: 0 $space-x-small
+.header-nav-item {
+  display: inline;
+  float: left;
+  margin: 0 $space-x-small;
 
-  &--login .header-nav-link
-    color: $color-primary
+  &--login .header-nav-link {
+    color: $color-primary;
+  }
+}
 
-.header-nav-link
-  color: $color-header-link
-  text-decoration: none
+.header-nav-link {
+  color: $color-header-link;
+  text-decoration: none;
+}
 
-.header-btn
-  @extend .btn
-  @extend .btn.btn-primary
-  @extend .btn.btn-small
-  @extend .btn.btn-outline
-  margin-top: calc(($space-xxx-small + 2px) * -1)
+.header-btn {
+  @extend .btn;
+  @extend .btn.btn-primary;
+  @extend .btn.btn-small;
+  @extend .btn.btn-outline;
+  margin-top: calc(($space-xxx-small + 2px) * -1);
+}

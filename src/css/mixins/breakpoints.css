@@ -1,11 +1,1 @@
-@define-mixin media $max: false, $min: false {
-  @if $max {
-    @if $min {
-      @media screen and (max-width: $(max) - 1) and (min-width: $(min)) { @mixin-content; }
-    } @else {
-      @media screen and (max-width: $(max) - 1) { @mixin-content; }
-    }
-  } @else {
-    @media screen and (min-width: $(min)) { @mixin-content; }
-  }
-}
+* {}

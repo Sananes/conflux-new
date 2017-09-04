@@ -32,11 +32,12 @@
     "onchange": "^3.2.1",
     "postcss-cli": "^4.1.0",
     "postcss-cssnext": "^3.0.2",
+    "postcss-custom-media": "^6.0.0",
     "postcss-easy-import": "^2.1.0",
     "postcss-nested": "^2.1.2",
-    "precss": "^2.0.0",
     "postcss-scss": "^1.0.2",
     "postcss-simple-vars": "^4.1.0",
+    "precss": "^2.0.0",
     "pug-cli": "^1.0.0-alpha6",
     "sugarss": "^1.0.0",
     "webpack": "^3.5.5"

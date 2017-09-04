@@ -1,21 +1,21 @@
 // Font family
-$font-family: "Averta", -apple-system, Roboto, Helvetica, sans-serif
+$font-family: "Averta", -apple-system, Roboto, Helvetica, sans-serif;
 
 // Line heights
-$line-height-tight: 1.2
-$line-height: 1.5
-$line-height-loose: 1.6
+$line-height-tight: 1.2;
+$line-height: 1.5;
+$line-height-loose: 1.6;
 
 // Opinionate settings
-$font-size-base: 16px
+$font-size-base: 16px;
 
 // Font sizes
-$font-size-smallest: rem-calc($font-size-base * 0.625) // 10px
-$font-size-smaller: rem-calc($font-size-base * 0.75) // 12px
-$font-size-small: rem-calc($font-size-base * 0.875) // 14px
-$font-size-body: rem-calc($font-size-base) // 16px
-$font-size-medium: rem-calc($font-size-base * 1.125) // 18px
-$font-size-large: rem-calc($font-size-base * 1.5) // 24px
-$font-size-x-large: rem-calc($font-size-base * 2.25) // 36px
-$font-size-xx-large: rem-calc($font-size-base * 3) // 48px
-$font-size-xxx-large: rem-calc($font-size-base * 4) // 64px
+$font-size-smallest: rem-calc($font-size-base * 0.625); // 10px
+$font-size-smaller: rem-calc($font-size-base * 0.75); // 12px
+$font-size-small: rem-calc($font-size-base * 0.875); // 14px
+$font-size-body: rem-calc($font-size-base); // 16px
+$font-size-medium: rem-calc($font-size-base * 1.125); // 18px
+$font-size-large: rem-calc($font-size-base * 1.5); // 24px
+$font-size-x-large: rem-calc($font-size-base * 2.25); // 36px
+$font-size-xx-large: rem-calc($font-size-base * 3); // 48px
+$font-size-xxx-large: rem-calc($font-size-base * 4); // 64px
