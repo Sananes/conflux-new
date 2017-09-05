@@ -1,5 +1,5 @@
 // Font family
-$font-family: "Averta", -apple-system, Roboto, Helvetica, sans-serif;
+$font-family: -apple-system, "SF UI Text", Roboto, Helvetica, sans-serif;
 $font-weight-bold: 600;
 
 // Line heights

@@ -1,6 +1,5 @@
 extends partials/base
 
-
 block content
   .hero
     .hero-content
@@ -9,4 +8,52 @@ block content
       .hero-form.form-inline
         input.cap-right(placeholder="Enter email address")
         button.btn.btn-primary.cap-left Get Started
-      .hero-image
+      .hero-image-container
+        .hero-image
+          .twitter-bird
+            img(src="src/img/twitter-bird.svg")
+        
+  .brands.divider-bottom
+    .text-block.center
+      .caption.small Forward-Thinking Companies Choose Conflux
+    ul.brand-list
+      li.brand-n26
+        img(src="src/img/n26-logo.svg")
+      li.brand-lightspeed
+        img(src="src/img/lightspeed-logo.svg" height="42px")
+      li.brand-startupcompany
+        img(src="src/img/marvel-logo.svg" height="48")
+      li.brand-anothercompany
+        img(src="src/img/n26-logo.svg")
+  
+  .features.divider-bottom
+    .text-block.center
+      h3.title #{home.featureTitle}
+      p.subtitle #{home.featureSubtitle}
+    .features-list
+      .plane.arrow-plane-up
+      .plane.arrow-plane-down
+      .feature-item.first
+        img.collect(src="src/img/collect-feedback.svg")
+        h3.feature-item-title Collect feedback
+        p.feature-item-body Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+      .split
+        .feature-item
+          img.communicate(src="src/img/communicate.svg")
+          h3.feature-item-title Collect feedback
+          p.feature-item-body Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+        .feature-item
+          img.organise(src="src/img/organise-feedback.svg")
+          h3.feature-item-title Collect feedback
+          p.feature-item-body Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+  .testimonials
+    .text-block.center
+      h6.caption What people are saying...
+    .quote-block
+      blockquote "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+      .quote-author
+        .quote-author-avatar
+          img(src="src/img/avatar.png" width="48" height="48")
+        .quote-author-name Aaron Sananes
+        .quote-author-from Product Designer @ <a href="#">Conflux</a>
+        

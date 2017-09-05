@@ -1,9 +1,5 @@
 .header {
   width: 100%;
-
-  @media(--medium-screen-down) {
-    width: 200px;
-  }
 }
 
 .header-container {
@@ -23,7 +19,6 @@
 }
 
 .header-nav {
-  font-size: $font-size-small;
   float: right;
   margin: 0;
   padding: 0;

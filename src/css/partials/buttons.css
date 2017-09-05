@@ -12,21 +12,30 @@ button, .btn {
   border-color: $color-primary;
   cursor: pointer;
 
+  &:hover {
+    background: color($color-button a(80%))
+  }
   &.btn-small {
     height: $height-button-small;
-    line-height: calc($height-button-small - 2px);
+    line-height: calc($height-button-small - 1px);
   }
   &.btn-primary {
     color: $color-white;
   }
   &.btn-outline {
     border: 1px solid $color-button;
-    background: none;
+    background: transparent;
     color: $color-primary;
+
+    &:hover {
+      background: color($color-button a(80%));
+      border-color: color($color-button a(80%));
+      color: $color-white;
+    }
   }
   &.btn-large{
     height: $height-button-large;
-    line-height: calc($height-button-large - 2px);
+    line-height: calc($height-button-large - 1px);
     padding-left: $space-large;
     padding-right: $space-large;
   }
