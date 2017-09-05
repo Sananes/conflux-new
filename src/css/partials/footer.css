@@ -6,6 +6,10 @@
 
   &.col-large {
     lost-column: 2/5 2 24px;
+
+    input {
+      width: 80%;
+    }
   }
 }
 .footer-links {

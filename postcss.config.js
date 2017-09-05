@@ -5,6 +5,10 @@ module.exports = {
     require('postcss-easy-import')(),
     require('postcss-simple-vars'),
     require('postcss-cssnext')(),
+    require('postcss-assets')({
+      cachebuster: true,
+      loadPaths: ['../src/img/']
+    }),
     require('lost')()
   ]
 };

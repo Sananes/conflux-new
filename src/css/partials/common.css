@@ -4,6 +4,7 @@
 
 html {
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -34,6 +35,7 @@ h1, .heading-1 {
 
 h2, .heading-2 {
   font-size: $font-size-xx-large;
+  line-height: $line-height-tight;
 }
 
 h3, .heading-3 {
@@ -52,10 +54,24 @@ h6, .heading-6 {
   font-size: $font-size-body;
 }
 
+.body-leader {
+  font-size: $font-size-medium;
+}
 // Common
 .container {
   width: 100%;
   max-width: $width-page-max;
   margin: 0 auto;
   padding: 0 2em;
+}
+
+// Border Radius Capping
+.cap-right {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.cap-left {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }

@@ -1,3 +1,29 @@
 .hero-content {
-  text-align: center
+  text-align: center;
+  margin: calc($space-xxx-large) auto;
+}
+.hero-form {
+  margin-top: $space-xx-large;
+
+  input {
+    @extend input.input-large;
+  }
+  button {
+    @extend .btn.btn-large;
+  }
+}
+
+.home-title, .home-leader {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.home-title {
+  @extend .heading-2;
+  margin-bottom: $space-large;
+}
+
+.home-leader{
+  @extend .body-leader;
+  padding: 0 calc($space-xxx-large * 2);
 }

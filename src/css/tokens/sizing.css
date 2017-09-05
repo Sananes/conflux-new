@@ -9,7 +9,11 @@ $width-gutter-half: $width-gutter/2;
 $font-size-base: 16px;
 
 // Heights
-$header-height: 64px;
+$height-header: 64px;
+$height-button-xs: 32px;
+$height-button-small: 36px;
+$height-button-medium: 40px;
+$height-button-large: 48px;
 
 // Vertical Spacing
 $space-xxx-small: rem-calc($font-size-base * 0.25); // 4px
