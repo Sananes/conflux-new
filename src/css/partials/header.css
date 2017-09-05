@@ -1,5 +1,9 @@
 .header {
   width: 100%;
+
+  @media(--medium-screen-down) {
+    width: 200px;
+  }
 }
 
 .header-container {

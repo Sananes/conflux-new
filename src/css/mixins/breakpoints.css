@@ -1,1 +1,13 @@
-* {}
+@custom-media --only-medium-screen (width >= 430px) and (width <= 769px);
+@custom-media --only-small-screen (width >= 321px) and (width <= 429px);
+@custom-media --only-xs-screen (width >= 0px) and (width <= 320px);
+
+// Breakpoint Up
+@custom-media --medium-screen-up (width >= 769px);
+@custom-media --small-screen-up (width >= 429px);
+@custom-media --xs-screen-up (width >= 320px);
+
+// Breakpoint Down
+@custom-media --medium-screen-down (width <= 769px);
+@custom-media --small-screen-down (width <= 429px);
+@custom-media --xs-screen-down (width <= 320px);
