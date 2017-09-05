@@ -1,20 +1,27 @@
-.footer
-  color: $color-footer-link
+.footer {
+  color: $color-footer-link;
+}
+.footer-column {
+  lost-column: 1/5 0 24px;
 
-.footer-column
-  lost-column: 1/5 0 24px
+  &.col-large {
+    lost-column: 2/5 2 24px;
 
-  &.col-large
-    lost-column: 2/5 2 24px
+    input {
+      width: 80%;
+    }
+  }
+}
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-header {
+  @extend .heading-6;
+}
 
-.footer-links
-  list-style: none
-  margin: 0
-  padding: 0
-
-.footer-header
-  @extend .heading-6
-
-.footer-item-link
-  color: $color-footer-link
-  text-decoration: none
+.footer-item-link {
+  color: $color-footer-link;
+  text-decoration: none;
+}

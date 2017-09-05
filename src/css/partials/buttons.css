@@ -1,20 +1,33 @@
-.btn
-  background: $color-button
-  display: block
-  text-decoration: none
-  border-radius: $border-radius
-  padding: 0 $space-small
-  border: none
-  border-color: $color-primary
+button, .btn {
+  font-family: $font-family;
+  outline: 0;
+  font-weight: $font-weight-bold;
+  background: $color-button;
+  display: block;
+  text-decoration: none;
+  border-radius: $border-radius;
+  padding: 0 $space-small;
+  border: none;
+  height: $height-button-medium;
+  border-color: $color-primary;
+  cursor: pointer;
 
-  &.btn-small
-    height: 36px
-    line-height: 34px
-
-  &.btn-primary
-    color: $color-white
-
-  &.btn-outline
-    border: 1px solid $color-button
-    background: none
-    color: $color-primary
+  &.btn-small {
+    height: $height-button-small;
+    line-height: calc($height-button-small - 2px);
+  }
+  &.btn-primary {
+    color: $color-white;
+  }
+  &.btn-outline {
+    border: 1px solid $color-button;
+    background: none;
+    color: $color-primary;
+  }
+  &.btn-large{
+    height: $height-button-large;
+    line-height: calc($height-button-large - 2px);
+    padding-left: $space-large;
+    padding-right: $space-large;
+  }
+}

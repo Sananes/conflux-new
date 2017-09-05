@@ -1,23 +1,27 @@
-$width-page-max: 1140px
+$width-page-max: 1140px;
 
 // Some variables
-$width-gutter: 12px
-$width-gutter-half: $width-gutter/2
+$width-gutter: 12px;
+$width-gutter-half: $width-gutter/2;
 
 
 // Opinionate settings
-$font-size-base: 16px
+$font-size-base: 16px;
 
 // Heights
-$header-height: 64px
+$height-header: 64px;
+$height-button-xs: 32px;
+$height-button-small: 36px;
+$height-button-medium: 40px;
+$height-button-large: 48px;
 
 // Vertical Spacing
-$space-xxx-small: rem-calc($font-size-base * 0.25) // 4px
-$space-xx-small: rem-calc($font-size-base * 0.5) // 8px
-$space-x-small: rem-calc($font-size-base * 0.75) // 12px
-$space-small: rem-calc($font-size-base) // 16px
-$space-medium: rem-calc($font-size-base * 1.25) // 20px
-$space-large: rem-calc($font-size-base * 1.5) // 24px
-$space-x-large: rem-calc($font-size-base * 2) // 32px
-$space-xx-large: rem-calc($font-size-base * 2.5) // 40px
-$space-xxx-large: rem-calc($font-size-base * 3) // 48px
+$space-xxx-small: rem-calc($font-size-base * 0.25); // 4px
+$space-xx-small: rem-calc($font-size-base * 0.5); // 8px
+$space-x-small: rem-calc($font-size-base * 0.75); // 12px
+$space-small: rem-calc($font-size-base); // 16px
+$space-medium: rem-calc($font-size-base * 1.25); // 20px
+$space-large: rem-calc($font-size-base * 1.5); // 24px
+$space-x-large: rem-calc($font-size-base * 2); // 32px
+$space-xx-large: rem-calc($font-size-base * 2.5); // 40px
+$space-xxx-large: rem-calc($font-size-base * 3); // 48px

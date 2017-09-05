@@ -1,43 +1,59 @@
-.header
-  width: 100%
+.header {
+  width: 100%;
 
-.header-container
-  width: $width-page-max
-  display: table-cell
-  padding: $space-large 0
+  @media(--medium-screen-down) {
+    width: 200px;
+  }
+}
 
-.header-logo
-  background: url('../src/img/logo.svg') no-repeat top left
-  display: block
-  text-indent: -999em
-  margin: 0
-  float: left
-  width: 124px
+.header-container {
+  width: $width-page-max;
+  display: table-cell;
+  padding: $space-large 0;
+}
 
-.header-nav
-  font-size: $font-size-small
-  float: right
-  margin: 0
-  padding: 0
+.header-logo {
+  background: resolve('logo.svg') no-repeat top left;
+  width: width('logo.svg');
+  height: height('logo.svg');
+  display: block;
+  text-indent: -999em;
+  margin: 0;
+  float: left;
+}
 
-.header-nav-split
-  float: left
+.header-nav {
+  font-size: $font-size-small;
+  float: right;
+  margin: 0;
+  padding: 0;
+  margin-right: calc($space-small * -1);
+}
 
-.header-nav-item
-  display: inline
-  float: left
-  margin: 0 $space-x-small
+.header-nav-split {
+  float: left;
+}
 
-  &--login .header-nav-link
-    color: $color-primary
+.header-nav-item {
+  display: inline;
+  float: left;
+  margin: 0 $space-small;
 
-.header-nav-link
-  color: $color-header-link
-  text-decoration: none
+  &--login .header-nav-link {
+    color: $color-primary;
+    font-weight: $font-weight-bold;
+  }
+}
 
-.header-btn
-  @extend .btn
-  @extend .btn.btn-primary
-  @extend .btn.btn-small
-  @extend .btn.btn-outline
-  margin-top: calc(($space-xxx-small + 2px) * -1)
+.header-nav-link {
+  color: $color-header-link;
+  text-decoration: none;
+}
+
+.header-btn {
+  @extend .btn;
+  @extend .btn.btn-primary;
+  @extend .btn.btn-small;
+  @extend .btn.btn-outline;
+  margin-top: calc(($space-xxx-small + 2px) * -1);
+}

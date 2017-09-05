@@ -1,20 +1,23 @@
-$color-dark: #1F2D3D
-$color-dark-secondary: #8492A7
-$color-cyan: #03CAFF
-$color-white: #fff
+$color-dark: #1F2D3D;
+$color-dark-secondary: #8492A7;
+$color-cyan: #03CAFF;
+$color-white: #fff;
+$color-extra-light: #E5E9F3;
 
-$color-primary: $color-cyan
-$color-background: white
+$color-primary: $color-cyan;
+$color-background: white;
 
 
-$color-button: $color-primary
-$color-heading: $color-dark
-$color-text: $color-dark-secondary
-$color-text-dark: $color-dark
-$color-link: $color-primary
+$color-button: $color-primary;
+$color-heading: $color-dark;
+$color-border: $color-extra-light;
+$color-text: $color-dark-secondary;
+$color-text-dark: $color-dark;
+$color-link: $color-primary;
+$color-input: $color-muted;
 
-$color-header-link: $color-text
-$color-header-link-active: $color-primary
+$color-header-link: $color-text;
+$color-header-link-active: $color-primary;
 
-$color-footer-link: $color-text
-$color-footer-link-active: $color-primary
+$color-footer-link: $color-text;
+$color-footer-link-active: $color-primary;
