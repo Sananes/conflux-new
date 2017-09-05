@@ -2,6 +2,7 @@
   text-align: center;
   margin: calc($space-xxx-large) auto;
 }
+
 .hero-form {
   margin-top: $space-xx-large;
 
@@ -21,9 +22,18 @@
 .home-title {
   @extend .heading-2;
   margin-bottom: $space-large;
+  padding: 0 calc($space-xxx-large);
 }
 
 .home-leader{
   @extend .body-leader;
   padding: 0 calc($space-xxx-large * 2);
+}
+
+.hero-image {
+  background-image: image-set(url(../src/img/browser.png) 1x, url(../src/img/browser@2x.png) 2x, url(../src/img/browser@3x.png) 3x, url(../src/img/browser@4x.png) 4x);
+  background-size: size(browser.png);
+  width: width(browser.png);
+  height: height(browser.png);
+  margin: $space-xxx-large auto;
 }

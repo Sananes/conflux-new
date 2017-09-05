@@ -7,6 +7,24 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+::-webkit-input-placeholder { /* Chrome */
+  color: color($color-text lightness(70%));
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: color($color-text lightness(70%));
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: color($color-text lightness(70%));
+  opacity: 1;
+}
+
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: color($color-text lightness(70%));
+  opacity: 1;
+}
+
 body {
   background: $color-background;
   font-family: $font-family;

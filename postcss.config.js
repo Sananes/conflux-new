@@ -7,7 +7,10 @@ module.exports = {
     require('postcss-cssnext')(),
     require('postcss-assets')({
       cachebuster: true,
-      loadPaths: ['../src/img/']
+      basePath: 'src/',
+      baseUrl: '/src',
+      loadPaths: ['img/'],
+      relative: false
     }),
     require('lost')()
   ]
